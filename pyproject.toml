@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-guidance"
+version = "0.1.0"
+description = ""
+authors = ["alextanhongpin <alextan220990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+guidance = "^0.1.4"
+jupyterlab = "^4.0.9"
+google-generativeai = "^0.2.2"
+google-cloud-aiplatform = "^1.36.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
